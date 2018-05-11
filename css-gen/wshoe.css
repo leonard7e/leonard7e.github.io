@@ -7,12 +7,23 @@ font-family: 'Source Code Pro', monospace;
 font-family: 'Josefin Slab', serif;
 font-family: 'Jura', sans-serif;
 */
-body, html {
+body, html, main {
   padding: 0;
   margin: 0;
 }
 :not(main) a {
   text-decoration: none;
+}
+main p:last-of-type {
+  margin-bottom: 0;
+}
+:not(main) h1,
+:not(main) h2,
+:not(main) h3,
+:not(main) h4,
+:not(main) h5,
+:not(main) h6{
+  margin: 0;
 }
 nav li,
 nav ul {
@@ -39,28 +50,35 @@ html {
   color: lightblue;
 }
 /* arrangement */
+body {
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
 body > main,
 body > header{
-  position: relative;
-}
-body > main {
-  margin-bottom: 1rem;
+    position: relative;
 }
 /* sizes */
 body
 body > header,
 body > main
 {
-width: 100%;
+    width: 100%;
 }
 /* Navigation. */
 #FooterNav li
 {
- display: inline-block;
+    display: inline-block;
 }
 #MainNav
 {
-  display: block;
+    width: 75rem;
+    display: block;
+}
+#MainNav li {
+    display: inline-flex;
 }
 #Title {
   margin-top: 0;
