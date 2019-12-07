@@ -1,0 +1,116 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Jura:400,700|Source+Code+Pro');
+/*
+font-family: 'Source Code Pro', monospace;
+font-family: 'Josefin Slab', serif;
+font-family: 'Jura', sans-serif;
+*/
+body, html, main {
+  padding: 0;
+  margin: 0;
+}
+:not(main) a {
+  text-decoration: none;
+}
+main p:last-of-type {
+  margin-bottom: 0;
+}
+:not(main) h1,
+:not(main) h2,
+:not(main) h3,
+:not(main) h4,
+:not(main) h5,
+:not(main) h6{
+  margin: 0;
+}
+nav li,
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* colors */
+#MainHeader {
+  background-color: transparent;
+}
+#MainNavigation {
+	background-color: hsl(30, 15%, 30%);
+}
+body > main {
+  background-color: hsl(30, 15%, 90%);
+}
+html {
+  background-color: hsl(172, 39%, 62%);
+}
+#Hamburger,
+#MainHeader a,
+#MainNavigation a {
+  color: lightblue;
+}
+/* Shadows */
+body > main {
+	box-shadow: 0 1ex 1ex hsla(120, 100%, 0%, 0.5);
+}
+#MainNavigation {
+	text-shadow: 0 2px 1px hsla(120, 100%, 0%, 0.75);
+}
+/* Page Geometry.
+*/
+main
+{
+    max-width: 60rem;
+}
+main,
+#MainHeader,
+#FooterNavigation {
+    margin: 1em;
+}
+/* Toplevel padding.
+*/
+#MainNavigation {
+    padding: 0.2em 1em;
+}
+#Container {
+    padding: 1em;
+}
+/*
+ Listed Content
+*/
+.listed_subpage {
+    margin-top: 1em;
+}
+/* Font Families
+ */
+body h1,
+body h2 {
+  font-family: 'Josefin Slab', serif;
+}
+body,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Jura', sans-serif;
+}
+/* Font Sizes
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1rem; }
+*/
+#FooterNavigation li
+{
+    display: inline-block;
+    margin-right: 1em;
+}
+#MainNavigation
+{
+    display: block;
+}
+#MainNavigation li {
+    display: inline-flex;
+    margin-right: 1em;
+}
+
+/*# sourceMappingURL=wshoe.css.map */
